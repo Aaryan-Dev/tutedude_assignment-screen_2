@@ -26,7 +26,7 @@ const Backlinks = () => {
         </a>
       </div>
 
-      <div id={css.back}>
+      {/* <div id={css.back}>
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Backlinks = () => {
             <pre> go back</pre>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
