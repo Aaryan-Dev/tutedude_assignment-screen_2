@@ -218,12 +218,6 @@ width: 45%;
                                             background: rgba(217, 217, 217, 0.25);
                                          }
 
-                    /* #grid_it>div>img{
-                        margin-right: 5%;
-                        padding: 5%;
-                        border-radius: 80px;
-                        border: 1px solid black;
-                    } */
 
                     #grid_it>div>div{
                         display: flex;
@@ -643,6 +637,12 @@ font-weight: 500;
         .friends>div:nth-child(3) {
             width: 100%;
     
+        }
+
+        #balance{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr) ;
+            grid-template-rows: auto ;
         }
 
                 #back {
