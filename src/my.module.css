@@ -639,11 +639,10 @@ font-weight: 500;
     
         }
 
-        #balance{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr) ;
-            grid-template-rows: auto ;
-        }
+       .enroll{
+        display: flex;
+        flex-direction: column ;
+       }
 
                 #back {
                     margin-bottom: 10px;
